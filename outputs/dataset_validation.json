@@ -1,0 +1,25 @@
+{
+  "valid": true,
+  "sample_count": 10,
+  "errors": [],
+  "stats": {
+    "risk_level": {
+      "high": 7,
+      "medium": 3
+    },
+    "gold_action": {
+      "clarify": 4,
+      "answer": 4,
+      "abstain": 2
+    },
+    "gap_type": {
+      "patient_info_gap": 4,
+      "none": 4,
+      "authorization_gap": 2
+    },
+    "support_label": {
+      "supported": 12,
+      "not_authorized": 6
+    }
+  }
+}

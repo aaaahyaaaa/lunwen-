@@ -1,0 +1,10 @@
+{"evidence_id":"ev_ibu_001","title":"布洛芬镇痛适应证","source":"药品说明书摘要","source_level":"high","keywords":["布洛芬","头疼","头痛","疼痛"],"text":"布洛芬属于非甾体抗炎药，可用于缓解轻至中度疼痛，包括头痛、牙痛和肌肉痛。"}
+{"evidence_id":"ev_ibu_002","title":"布洛芬禁忌和慎用","source":"药品说明书摘要","source_level":"high","keywords":["布洛芬","胃溃疡","孕晚期","肾功能","抗凝药"],"text":"有活动性胃溃疡、严重肾功能不全、孕晚期或正在使用抗凝药等情况时，使用布洛芬需要避免或谨慎并咨询医生。"}
+{"evidence_id":"ev_child_001","title":"儿童退热用药原则","source":"儿科用药原则摘要","source_level":"high","keywords":["小孩","儿童","发烧","布洛芬","剂量"],"text":"儿童用药需要结合年龄和体重计算剂量，不应直接按成人剂量使用退热或镇痛药。"}
+{"evidence_id":"ev_abx_001","title":"抗生素使用原则","source":"抗菌药物使用原则摘要","source_level":"high","keywords":["阿莫西林","抗生素","细菌感染","黄痰"],"text":"抗生素可用于部分细菌感染，但是否需要使用抗生素应结合感染证据、过敏史和医生评估。"}
+{"evidence_id":"ev_abx_002","title":"普通感冒抗生素","source":"呼吸道感染科普摘要","source_level":"high","keywords":["感冒","流鼻涕","抗生素","病毒"],"text":"普通病毒性感冒通常不需要抗生素，抗生素不能治疗病毒感染。"}
+{"evidence_id":"ev_chest_001","title":"突发胸痛处理","source":"急诊科普摘要","source_level":"high","keywords":["胸痛","出汗","突发胸痛","及时就医"],"text":"胸痛可能有多种原因；突发胸痛、出汗、气促或持续不缓解时，应及时就医或寻求急诊评估。"}
+{"evidence_id":"ev_bp_001","title":"高血压用药调整","source":"慢病管理摘要","source_level":"high","keywords":["血压","高血压","降压药","合并疾病"],"text":"高血压用药需要结合血压水平、合并疾病、既往用药和不良反应综合评估，不建议患者自行调整剂量。"}
+{"evidence_id":"ev_cough_001","title":"咳嗽常见原因","source":"呼吸症状科普摘要","source_level":"high","keywords":["咳嗽","感染","过敏","刺激"],"text":"咳嗽可能由感染、过敏或刺激等多种原因引起。"}
+{"evidence_id":"ev_cough_002","title":"咳嗽就医提示","source":"呼吸症状科普摘要","source_level":"high","keywords":["咳嗽","持续","加重","就医"],"text":"如果咳嗽症状持续、加重，或伴随发热、咯血、胸痛、气促等表现，需要就医评估。"}
+{"evidence_id":"ev_low_001","title":"论坛经验帖","source":"网络论坛","source_level":"low","keywords":["偏方","自行用药"],"text":"有人分享自行用药经验，但这类内容不能作为具体医学结论的权威依据。"}

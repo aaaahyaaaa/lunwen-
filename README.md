@@ -2,6 +2,70 @@
 
 这个仓库用于存放论文检索、追踪和阶段性整理材料。
 
+## CM-EGQA / Claim Authorization Pilot
+
+当前新增了一个面向 IEEE BigData 2026 主会目标的最小实验闭环：
+
+- `data/cm_egqa_mini.jsonl`：中文医疗 QA 小样本。
+- `data/evidence_corpus.jsonl`：小型医学证据库。
+- `medclaimauth/`：断言级证据授权实验代码，当前包含 7 个确定性对照方法。
+- `outputs/mini_experiment_report.md`：可复现实验报告。
+- `outputs/dataset_validation.md`：数据质量门禁报告。
+- `outputs/case_studies.md`：论文 case-study 候选。
+- `outputs/tables/`：论文和 PPT 可复用 CSV 表格。
+- `outputs/cm_egqa_progress_report.pptx`：给导师汇报的 PPT 初稿。
+- `docs/ieee_bigdata_2026_roadmap.md`：BigData 2026 投稿路线。
+- `docs/cm_egqa_annotation_guidelines.md`：CM-EGQA 标注规范。
+- `docs/source_repo_audit.md`：截图中三个 GitHub 仓库的可迁移信息审计。
+
+运行测试：
+
+```bash
+python3 -m unittest \
+  tests/test_claim_authorization.py \
+  tests/test_run_experiment_cli.py \
+  tests/test_dataset_validation.py \
+  tests/test_case_studies.py \
+  tests/test_export_tables.py
+```
+
+复现实验：
+
+```bash
+python3 -m medclaimauth.run_experiment \
+  --samples data/cm_egqa_mini.jsonl \
+  --evidence data/evidence_corpus.jsonl \
+  --output-json outputs/mini_experiment_report.json \
+  --output-md outputs/mini_experiment_report.md
+```
+
+验证数据集：
+
+```bash
+python3 -m medclaimauth.validate_dataset \
+  --samples data/cm_egqa_mini.jsonl \
+  --output-json outputs/dataset_validation.json \
+  --output-md outputs/dataset_validation.md
+```
+
+导出论文 case studies：
+
+```bash
+python3 -m medclaimauth.export_case_studies \
+  --samples data/cm_egqa_mini.jsonl \
+  --evidence data/evidence_corpus.jsonl \
+  --output-json outputs/case_studies.json \
+  --output-md outputs/case_studies.md
+```
+
+导出论文/PPT 表格：
+
+```bash
+python3 -m medclaimauth.export_tables \
+  --report-json outputs/mini_experiment_report.json \
+  --output-dir outputs/tables
+```
+
 ## 目录结构
 
 - `意图识别治理幻觉/论文检索/`
